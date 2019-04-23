@@ -61,9 +61,40 @@ var game = {
     },
 
     timeUp: function() {
-        
-    }
+      
+        clearInterval(timer);
 
+        $("#counter-number").html(game.counter);
+
+        panel.html("<h2>Out of Time!</h2>");
+        panel.append("<h3>The Correct Answer was: " + questions[this.currentQuestion].correctAnswer);
+        pamel.append("<img src='" + questions[this.currentQuestion].image)
+
+        if (game.currentQuestion === questions.length -1)
+        {
+            setTimeout(game.results, 3 * 1000);
+        }
+        else 
+        {
+            setTimeout(game.nextQuestion, 3 * 1000);
+        }
+        
+
+    },
+
+    results: function() {
+
+        clearInterval(timer);
+
+        panel.html("<h2>All done, here's how you did!</h2>");
+
+        $("counter-number").html(game.counter);
+
+        panel.append("<h3>Correct Answers: " + game.correct + "</h3>");
+        panel.append("<h3>Incorrect Answers: " + GAME.INCORRECT + "</h3");
+        panel.append("<h3>Unanswered: " + (questions.length = game.correct + game.incorrect))
+        panel.append("<br><button id='start-over'>Start Over?")
+    }
 
 
 }
