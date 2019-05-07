@@ -6,17 +6,38 @@ var countStartNumber = 30;
 var questions = [
     
     {
-        question: "What was the first full length CGI movie?",
-        answers: ["A Bug's Life", "Monsters Inc.", "Toy Story", "The Lion King"],
-        correctAnswer: "Toy Story",
-        image: "assets\Toy Story p7.gif"
+        question: "Which celebrity had to issue an apology after her cellphone was hacked and all of her celebrity friends' phone numbers were posted on the internet?",
+        answers: ["Britney Spears", "Kim Kardashian", "Paris Hilton", "Madonna"],
+        correctAnswer: "Paris Hilton",
+        image: "assets/Paris.gif"
     },
 
     {
-        question: "Which of these is NOT a name of one of the Spice Girls?",
-        answers: ["Sporty Spice", "Hot Spice", "Scary Spice", "Posh Spice"],
-        correctAnswer: "Hot Spice",
-        image: "assets\spice girls p7.gif"
+        question: "Who is the highest paid model in the world?",
+        answers: ["Gigi Hadid", "Alessandra Ambrosio", "Adriana Lima", "Kendall Jenner"],
+        correctAnswer: "Kendall Jenner",
+        image: "assets/Kendall.gif"
+    },
+
+    {
+        question: "Who has the most followers on Instagram?",
+        answers: ["Selena Gomez", "Cristiano Ronaldo", "Kylie Jenner", "Justin Bieber"],
+        correctAnswer: "Selena Gomez",
+        image: "assets/selena.gif",
+    },
+
+    {
+        question: "Who died during the filming of Fast and Furious 7?",
+        answers: ["Dwayne Johnson", "Paul Walker", "Jason Statham", "Michelle Rodriguez"],
+        correctAnswer: "Paul Walker",
+        image: "assets/paul.gif"
+    },
+
+    {
+        question: "When does the Met Gala occur?",
+        answers: ["The first Monday of May", "The second Tuesday of April", "The fist Monay of April", "The last Friday of March"],
+        correctAnswer: "The first Monday of May",
+        image: "assets/met.gif"
     }
 
 
